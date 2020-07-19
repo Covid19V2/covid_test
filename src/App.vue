@@ -1,15 +1,29 @@
 <template>
-  <div>
+  <div class="monk">
     <h1>How to eat ass.</h1>
     <ul>
       <li>Step 1: Remove dem clothes</li>
       <li>Step 2: Open dat mouth</li>
       <li>Step 3: Go for it tiger</li>
+      <li class="hobo" > i eat ass</li>
     </ul>
 
     <AssEater />
   </div>
 </template>
+
+<style>
+  .monk {
+    background-image: url("./assets/download.jpg");
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  .hobo {
+    background-color: yellow;
+  }
+</style>
 
 <script>
 import AssEater from './components/AssEater.vue'

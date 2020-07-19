@@ -1,6 +1,6 @@
 <template>
   <button @click="count++">Eat it</button>
-  <p>Asses eaten: {{ count }}</p>
+  <p class="hobo1">Asses eaten: {{ count }}</p>
 </template>
 
 <script>
@@ -16,3 +16,10 @@ export default {
   }
 }
 </script>
+
+
+<style>
+  .hobo1 {
+    color: white;
+  }
+</style>
