@@ -6,13 +6,18 @@
       <li>Step 2: Open dat mouth</li>
       <li>Step 3: Go for it tiger</li>
       <li class="hobo" > i eat ass</li>
+      <!-- that was pissing me off -->
     </ul>
 
     <AssEater />
+    <p class="text"> I would like to thank Jingle Bells for coding 95% of this website , this was a team effort </p>
   </div>
 </template>
 
 <style>
+.text {
+  color: white;
+}
   .monk {
     background-image: url("./assets/download.jpg");
     height: 100vh;
